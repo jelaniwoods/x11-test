@@ -1,5 +1,8 @@
-# ruby-sandox
+# X11 Test With Gosu
 
-Use this repository as a workspace to experiment in `irb` terminals, write Ruby code in the editor, and save your notes to GitHub by committing and pushing.
 
-- Ruby version: `3.2.1`
+1. Install prerequisites with `bin/setup`
+2. Start servives with `docker compose up -d`
+3. Open port `5800` in new tab and connect
+4. Start game with `bin/start`
+5. Game 😎🎮

@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+system "sudo apt-get update -y"
+system "sudo apt-get install build-essential libsdl2-dev libgl1-mesa-dev libgmp-dev libfontconfig1-dev -y"
+system "gem install gosu"
